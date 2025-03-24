@@ -1,11 +1,5 @@
 import { create } from "zustand";
-
-type Game = {
-    id: string;
-    title: string;
-    description: string;
-    cover: string;
-}
+import { Game } from "../types/game";
 
 type GameStore = {
     selectedGame: Game | null;
